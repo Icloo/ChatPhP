@@ -1,0 +1,47 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: bisque;
+}
+
+.taille {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.pos {
+    justify-content: center;
+    align-items: center;
+}
+
+.design_log {
+    border-radius: 10px;
+    height: 1.8rem;
+}
+
+.design_btn {
+    background: red;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+}
+
+.design_btn:hover {
+    translate: 1px 1px;
+}
+
+.test {
+    text-align: center;
+}
+
+.test2 {
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+}
